@@ -1,0 +1,131 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: 'Courier New', Courier, monospace;
+    color: #1f2937;
+    background-color: #f9fafb;
+}
+
+header{
+    background-color: #5f89c5;
+    color: #ffffff;
+    padding: 1rem;
+    text-align: center;
+}
+
+header a{
+    color: #ffffff;
+}
+
+main{
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 1.5rem;
+
+}
+
+footer{
+    text-align: center;
+    padding: 1rem;
+    color: #6b7280;
+    font-size: 0.875rem;
+}
+
+/* Catalogo de Talleres */
+
+.catalogo{
+    display:grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+}
+
+.tarjeta{
+    background-color: #ffffff;
+    border: 1px solid #e5e7eb;
+    border-radius: 0.5rem;
+    padding: 1rem;
+    
+}
+
+.tarjeta h2{
+    margin-top:0;
+    font-size: 1.1rem;
+}
+
+.tarjeta a{
+    color: #3b82f6;
+    text-decoration: none;
+}
+
+.tarjeta a:hover{
+    text-decoration: underline;
+}
+
+
+/* 1. Regla para el formulario */
+.formulario-registro {
+  border: 2px solid #5f89c5;
+  padding: 20px;
+  width: 350px;
+  margin: auto;
+  background-color: #d7e7fd;
+  border-radius: 8px;
+}
+
+/* 2. Regla para los inputs */
+.formulario-registro input {
+  display:block;
+  margin: 10px 0;
+  padding: 8px;
+  border: 1px solid #5f89c5;
+  width: 100%;
+  border-radius: 10px;
+}
+
+/* 3. Regla para el botón */
+.formulario-registro button {
+  background-color: #a790e4;
+  color: white;
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  border-radius: 10px;
+}
+
+/* 4. Hover sobre el botón */
+.formulario-registro button:hover {
+  background-color: #fde6f7;
+}
+
+/* 5. Input inválido */
+.formulario-registro input:invalid {
+  border: 2px solid #eff15b;
+}
+
+/* Mensajes de error */
+.mensaje-error {
+  color: #b63e88;
+  font-size: 0.9em;
+}
+
+/* 6. Mensaje de éxito */
+.mensaje-exito {
+  color: rgb(145, 221, 145);
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+/* boton- detalle */
+.info-taller button {
+  background-color: #a790e4;
+  padding: 5px;
+  border: none;
+  cursor: pointer;
+  width: 50%;
+  border-radius: 10px; }
+
+
