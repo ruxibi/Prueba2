@@ -76,7 +76,7 @@ footer{
 }
 
 /* 2. Regla para los inputs */
-.formulario-registro input {
+.formulario-registro input{
   display:block;
   margin: 10px 0;
   padding: 8px;
